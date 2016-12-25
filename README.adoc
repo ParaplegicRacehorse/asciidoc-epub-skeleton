@@ -29,3 +29,7 @@ video::kyGJEVEjfAs[youtube]
 
 video::r6RXRi5pBXg[youtube]
 
+Well. It seem GitHub doesn't want me to embed the videos. Crummy. Links!
+
+- https://youtu.be/r6RXRi5pBXg[7 Ways to Hack Your Brain to Write Fluently by Dan Allen]
+- https://youtu.be/kyGJEVEjfAs[Write in AsciiDoc, Publish Everywhere!]
