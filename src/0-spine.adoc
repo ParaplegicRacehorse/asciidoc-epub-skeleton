@@ -1,0 +1,47 @@
+// asciidoc book template
+:doctitle:
+:title:
+:subtitle:
+ifdef::ebook-formate-ebup3[:uuid: ISBN HERE]
+ifdef::ebook-formate-kf8[:uuid: ASIN HERE]
+:author:
+:username: //path to avatar or picture of author
+:producer: //publisher
+:creator:
+:copyright:
+:revdate:
+//
+:lang:
+:encoding: utf-8
+:scripts: //subset of unicode font. ex: latin, latin-ext, latin-cyrillic, multilingual
+:epub3-styles: //path to css files. Must have epub3.css(reader supports css2) and epub3-css3-only.css(reader supports css3)
+:imagesdir: //path to images
+:data-uri: //embeds images in output
+:front-cover-image: //path to image
+//
+:toc: macro
+:toclevels: 1
+:!numbered:
+//
+:description:
+:keywords:
+
+//
+
+include::front-matter.adoc[]
+
+toc::[]
+
+include::chapter-1.adoc[]
+
+include::chapter-2.adoc[]
+
+// etc...
+
+[[index]]
+include::index-1.adoc[]
+
+[[colophon]]
+include::colophon.adoc[]
+
+include::about-author.adoc[]
