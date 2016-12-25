@@ -16,9 +16,9 @@ I recommend using absolutely everything you can and merely commenting out unneed
 
 When complete, you get pretty darn good output with two simple commands.
 
-  asciidoc-epub3 -D output -a ebook-format=kf8 [PATH-TO-BOOKFILE]
-  asciidoc-epub3 -D output -a ebook-format=epub3 -a ebook-validate [PATH-TO-BOOKFILE]
-  
+  asciidoctor-epub3 -D output -a ebook-format=kf8 [PATH-TO-BOOKFILE]
+  asciidoctor-epub3 -D output -a ebook-format=epub3 -a ebook-validate [PATH-TO-BOOKFILE]
+
 See the documentation for asciidoctor and asciidoctor-epub3 for more.
 
 == Writing Tips
