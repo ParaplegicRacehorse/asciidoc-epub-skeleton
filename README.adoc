@@ -1,0 +1,31 @@
+= asciidoc-epub-skeleton
+
+I created this to aide me in setting up new books for my publication toolchain, which relies heavily on
+https://github.com/asciidoctor/asciidoctor[asciidoctor],
+https://github.com/asciidoctor/asciidoctor-epub3[asciidoctor-epub3], 
+https://github.com/IDPF/epubcheck[epubcheck], and
+https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211[kindlegen]. Unfortunately, this doesn't really help me much with the print side of publishing. But I'm working on templates for LibreOffice and Scribus to help out. I may or may not add them to the skeleton when I'm happy with them.
+
+== Useage
+
+Simply clone the repository and duplicate for each book.
+
+Edit the files appropriately.
+You can comment out anything in the files you don't want or need in your own book(s) or even delete the lines in whole.
+I recommend using absolutely everything you can and merely commenting out unneeded lines because it makes it easier to go back and fix if you discover you need/want them afterall.
+
+When complete, you get pretty darn good output with two simple commands.
+
+  asciidoc-epub3 -D output -a ebook-format=kf8 [PATH-TO-BOOKFILE]
+  asciidoc-epub3 -D output -a ebook-format=epub3 -a ebook-validate [PATH-TO-BOOKFILE]
+  
+See the documentation for asciidoctor and asciidoctor-epub3 for more.
+
+== Writing Tips
+
+Have a look at the following videos. I believe they will assist you in crafting your work.
+
+video::kyGJEVEjfAs[youtube]
+
+video::r6RXRi5pBXg[youtube]
+
