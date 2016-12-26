@@ -1,0 +1,14 @@
+= Colophon
+
+A colophon is entirely optional and its use has, sadly, fallen out of fashion.
+
+See https://en.wikipedia.org/wiki/Colophon_(publishing)[Wikipedia - Colophon (publishing)]
+
+Personally, I use the colophon to pimp the open-source tools I used in the creation of the work.
+Invariably, I also link to those tools.
+Asciidoctor, Asciidoctor-epub3, Scribus, GIMP, Inkscape, etc.
+I usually also include a __how__ I used them.
+Be brief, though.
+Most people find this pretty boring.
+It's why I put it at the back instead of the front.
+

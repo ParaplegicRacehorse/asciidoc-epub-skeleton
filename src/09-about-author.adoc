@@ -1,0 +1,22 @@
+= About {author}
+
+image::authorpic.png[height= , width= ]
+
+A paragraph or two about who you are and in real life and stuff.
+Your readers want to know stuff about you.
+
+Be sure to include a link to your website;
+or, at least, where readers can get more of your books.
+https://link.to[yoursite]
+
+///
+== Other titles by {author}
+
+Here is where you pimp your other books.
+Everything goes here:
+- cover images
+- cover blurbs
+- pretty much any kind of marketing text
+- store-site links!!! Duh!
+///
+

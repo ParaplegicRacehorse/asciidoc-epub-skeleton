@@ -1,4 +1,3 @@
-// asciidoc book template
 :doctitle:
 :title:
 :subtitle:
@@ -28,7 +27,15 @@ ifdef::ebook-formate-kf8[:uuid: ASIN HERE]
 
 //
 
-include::front-matter.adoc[]
+include::01-front-matter.adoc[]
+
+//include::02-epigraph.adoc[]
+
+include::02-introduction.adoc[]
+
+include::02-preface.adoc[]
+//or
+//include::02-prologue.adoc[]
 
 toc::[]
 
@@ -41,7 +48,9 @@ include::chapter-2.adoc[]
 [[index]]
 include::index-1.adoc[]
 
-[[colophon]]
-include::colophon.adoc[]
+//include::08-preview-chapter[]
 
-include::about-author.adoc[]
+[[colophon]]
+include::09-colophon.adoc[]
+
+include::09-about-author.adoc[]

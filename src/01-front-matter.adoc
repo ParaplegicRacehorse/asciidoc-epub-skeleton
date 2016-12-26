@@ -1,0 +1,23 @@
+= {title}
+== {subtitle}
+
+<<<
+
+{title} : {subtitle}
+
+by {author}
+
+eBook ISBN: [INSERT ISBN HERE] +
+Kindle ASIN: [INSERT ISBN HERE] +
+Print ISBN: [INSERT ISBN HERE]
+
+Copyright (C){copyright}, All Rights Reserved
+
+Cover Photo and Design by 
+
+{producer} \
+[producer's address] \
+[producer's address]
+
+<<<
+

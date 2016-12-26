@@ -1,0 +1,14 @@
+= Prologue
+
+From https://en.wikipedia.org/wiki/Prologue[Wikipedia]:
+
+A prologue or prolog (Greek πρόλογος prólogos, from pro, "before" and lógos, "word") is an opening to a story that establishes the context and gives background details, often some earlier story that ties into the main one, and other miscellaneous information. 
+The Ancient Greek prólogos included the modern meaning of prologue, but was of wider significance, more like the meaning of preface. 
+The importance, therefore, of the prologue in Greek drama was very great; it sometimes almost took the place of a romance, to which, or to an episode in which, the play itself succeeded.
+
+It is believed that the prologue in this form was practically the invention of Euripides, and with him, as has been said, it takes the place of an explanatory first act. 
+This may help to modify the objection which criticism has often brought against the Greek prologue, as an impertinence, a useless growth prefixed to the play, and standing as a barrier between us and our enjoyment of it. 
+The point precisely is that, to an Athenian audience, it was useful and pertinent, as supplying just what they needed to make the succeeding scenes intelligible. 
+But it is difficult to accept the view that Euripides invented the plan of producing a god out of a machine to justify the action of deity upon man, because it is plain that he himself disliked this interference of the supernatural and did not believe in it. 
+He seems, in such a typical prologue as that to the Hippolytus, to be accepting a conventional formula, and employing it, almost perversely, as a medium for his ironic rationalism.
+
