@@ -28,13 +28,13 @@
 ####
 
 
-if [ -z $1 ]; then
-    echo "useage: buildbook.sh <epub|mobi|book> <PATH-TO-'SPINE'> \n where 'SPINE' is your master document full of metadata and includes"
+if [ -z "$1" ]; then
+    printf "useage: buildbook.sh <epub|mobi|book> <PATH-TO-'SPINE'> \n where 'SPINE' is your master document full of metadata and includes"
     exit
 fi
 
-if [ -z $2 ]; then
-    echo "useage: buildbook.sh <epub|mobi|book> <PATH-TO-'SPINE'> \n where 'SPINE' is your master document full of metadata and includes"
+if [ -z "$2" ]; then
+    printf "useage: buildbook.sh <epub|mobi|book> <PATH-TO-'SPINE'> \n where 'SPINE' is your master document full of metadata and includes"
     exit
 fi
 
@@ -42,13 +42,13 @@ while :
 do
     case "$1" in
         mobi)
-            asciidoctor-epub3 -D output -a ebook-format=kf8 $2
+            asciidoctor-epub3 -D output -a ebook-format=kf8 "$2"
             ;;
         epub)
-            asciidoctor-epub3 -D output -a ebook-format=epub3 -a ebook-validate $2
+            asciidoctor-epub3 -D output -a ebook-format=epub3 -a ebook-validate "$2"
             ;;
         book)
-            asciidoctor-epub3 -D output -a ebook-format=kf8 $2 && asciidoc-epub3 -D output -a ebook-format=epub3 -a ebook-validate $2
+            asciidoctor-epub3 -D output -a ebook-format=kf8 "$2" && asciidoc-epub3 -D output -a ebook-format=epub3 -a ebook-validate "$2"
             ;;
     esac
 done
